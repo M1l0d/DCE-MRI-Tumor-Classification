@@ -1,2 +1,8 @@
 # Ignore the virtual environment folder
 venv/
+# Ignore the runs folder
+Runs/
+# Ignore the error folder
+Errors/
+# Ignore the scripts folder
+Scripts/
