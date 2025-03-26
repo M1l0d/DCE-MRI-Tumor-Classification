@@ -31,8 +31,8 @@ def filter_excel_by_column(input_file, column_name, output_filtered, output_filt
 
 # Settings
 input_file = "clinical_and_imaging_info.xlsx"  # File path
-column_name = "tumor_subtype"  # Column to filter by
-output_filtered = "filtered_clinical_and_imaging_info.xlsx"
-output_filtered_out = "filtered_out_entries.xlsx"
+column_name = "pcr"  # Column to filter by
+output_filtered = "filtered_clinical_and_imaging_info_pcr.xlsx"
+output_filtered_out = "filtered_out_entries_pcr.xlsx"
 
 filter_excel_by_column(input_file, column_name, output_filtered, output_filtered_out)
