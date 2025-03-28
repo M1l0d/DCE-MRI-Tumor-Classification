@@ -1,0 +1,68 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/3916461
+🔥 Using device: cuda
+✅ Loaded 1491 valid samples
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 1, Train Loss: 1.2534, Val Loss: 0.9726, AUC: 0.4982
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 2, Train Loss: 0.9616, Val Loss: 0.9410, AUC: 0.4761
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 3, Train Loss: 0.9565, Val Loss: 1.0447, AUC: 0.4920
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 4, Train Loss: 0.9561, Val Loss: 0.9351, AUC: 0.5021
+Epoch 5, Train Loss: 0.9676, Val Loss: 0.9712, AUC: 0.5236
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 6, Train Loss: 0.9561, Val Loss: 1.0199, AUC: 0.5597
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 7, Train Loss: 0.9453, Val Loss: 0.9744, AUC: 0.5171
+Epoch 8, Train Loss: 0.9456, Val Loss: 0.9602, AUC: 0.5360
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 9, Train Loss: 0.9218, Val Loss: 1.1354, AUC: 0.5258
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 10, Train Loss: 0.9194, Val Loss: 1.0331, AUC: 0.4883
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 11, Train Loss: 0.9302, Val Loss: 1.0976, AUC: 0.4846
+Epoch 12, Train Loss: 0.9376, Val Loss: 0.9843, AUC: 0.5245
+⏹️ Early stopping at epoch 12
+📈 Saved loss curve.
+
+🎯 Optimal Threshold based on F1: 0.5896
+
+--- Evaluation ---
+Accuracy:  0.3356
+Precision: 0.2945
+Recall:    0.9529
+F1 Score:  0.4543
+ROC AUC:   0.5263
+Confusion Matrix:
+ [[ 19 194]
+ [  4  81]]

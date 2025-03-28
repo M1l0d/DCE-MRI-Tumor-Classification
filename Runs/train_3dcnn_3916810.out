@@ -1,0 +1,56 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/3916810
+🔥 Using device: cuda
+✅ Loaded 1491 valid samples
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 1, Train Loss: 1.5268, Val Loss: 1.0621, AUC: 0.4380
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 2, Train Loss: 0.9731, Val Loss: 0.9377, AUC: 0.5290
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 3, Train Loss: 0.9595, Val Loss: 0.9679, AUC: 0.6165
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 4, Train Loss: 0.9605, Val Loss: 1.0053, AUC: 0.5463
+Epoch 5, Train Loss: 0.9570, Val Loss: 1.0412, AUC: 0.5285
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 6, Train Loss: 0.9678, Val Loss: 0.9445, AUC: 0.5676
+Epoch 7, Train Loss: 0.9560, Val Loss: 0.9976, AUC: 0.5705
+[DEBUG] t2: mean=-0.0000, std=0.9619
+[DEBUG] Δ1: mean=-0.0001, std=0.3818
+[DEBUG] Δ2: mean=0.0001, std=0.6777
+Epoch 8, Train Loss: 0.9529, Val Loss: 1.0102, AUC: 0.5407
+Epoch 9, Train Loss: 0.9538, Val Loss: 0.9498, AUC: 0.5864
+⏹️ Early stopping at epoch 9
+📈 Saved loss curve.
+
+🎯 Optimal Threshold based on F1: 0.5865
+
+--- Evaluation ---
+Accuracy:  0.3826
+Precision: 0.3469
+Recall:    0.9307
+F1 Score:  0.5094
+ROC AUC:   0.5667
+Confusion Matrix:
+ [[ 20 177]
+ [  7  94]]

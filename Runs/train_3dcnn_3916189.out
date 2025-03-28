@@ -1,0 +1,27 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/3916189
+🔥 Using device: cuda
+✅ Loaded 1491 valid samples
+Epoch 1, Train Loss: 0.4356, Val Loss: 0.1293, AUC: 0.5265
+Epoch 2, Train Loss: 0.1308, Val Loss: 0.1317, AUC: 0.5010
+Epoch 3, Train Loss: 0.1293, Val Loss: 0.1298, AUC: 0.5214
+Epoch 4, Train Loss: 0.1299, Val Loss: 0.1289, AUC: 0.5454
+Epoch 5, Train Loss: 0.1293, Val Loss: 0.1265, AUC: 0.5146
+Epoch 6, Train Loss: 0.1287, Val Loss: 0.1329, AUC: 0.5022
+Epoch 7, Train Loss: 0.1289, Val Loss: 0.1350, AUC: 0.4996
+Epoch 8, Train Loss: 0.1289, Val Loss: 0.1312, AUC: 0.5051
+Epoch 9, Train Loss: 0.1287, Val Loss: 0.1290, AUC: 0.4855
+Epoch 10, Train Loss: 0.1282, Val Loss: 0.1301, AUC: 0.5123
+⏹️ Early stopping at epoch 10
+📈 Saved loss curve.
+
+🎯 Optimal Threshold based on F1: 0.4830
+
+--- Evaluation ---
+Accuracy:  0.4128
+Precision: 0.3138
+Recall:    0.8721
+F1 Score:  0.4663
+ROC AUC:   0.5398
+Confusion Matrix:
+ [[ 48 164]
+ [ 11  75]]
