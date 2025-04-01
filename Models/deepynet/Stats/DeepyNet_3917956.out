@@ -1,0 +1,39 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/3917956
+🔥 Device: cuda | Mode: delta
+🚀 Training DeepyNet3D...
+Epoch 1, Train Loss: 0.9706, Val Loss: 0.9928, AUC: 0.4969
+Epoch 2, Train Loss: 0.9541, Val Loss: 1.0019, AUC: 0.5355
+Epoch 3, Train Loss: 0.9578, Val Loss: 0.9786, AUC: 0.5381
+Epoch 4, Train Loss: 0.9575, Val Loss: 0.9690, AUC: 0.5441
+Epoch 5, Train Loss: 0.9482, Val Loss: 1.0085, AUC: 0.5357
+Epoch 6, Train Loss: 0.9484, Val Loss: 0.9949, AUC: 0.5800
+Epoch 7, Train Loss: 0.9457, Val Loss: 1.0321, AUC: 0.5555
+Epoch 8, Train Loss: 0.9508, Val Loss: 1.0354, AUC: 0.5659
+Epoch 9, Train Loss: 0.9435, Val Loss: 0.9837, AUC: 0.6027
+Epoch 10, Train Loss: 0.9441, Val Loss: 1.0395, AUC: 0.5497
+Epoch 11, Train Loss: 0.9420, Val Loss: 1.0036, AUC: 0.6043
+Epoch 12, Train Loss: 0.9492, Val Loss: 1.0182, AUC: 0.5931
+Epoch 13, Train Loss: 0.9395, Val Loss: 1.0214, AUC: 0.5984
+Epoch 14, Train Loss: 0.9379, Val Loss: 1.0286, AUC: 0.5693
+Epoch 15, Train Loss: 0.9117, Val Loss: 1.0601, AUC: 0.5828
+Epoch 16, Train Loss: 0.9190, Val Loss: 0.9887, AUC: 0.6117
+Epoch 17, Train Loss: 0.9136, Val Loss: 0.9880, AUC: 0.6037
+Epoch 18, Train Loss: 0.9070, Val Loss: 0.9823, AUC: 0.5999
+Epoch 19, Train Loss: 0.9156, Val Loss: 1.0736, AUC: 0.5944
+Epoch 20, Train Loss: 0.9033, Val Loss: 1.0973, AUC: 0.6067
+Epoch 21, Train Loss: 0.9029, Val Loss: 1.0200, AUC: 0.5934
+Epoch 22, Train Loss: 0.9064, Val Loss: 1.0147, AUC: 0.6077
+⏹️ Early stopping at epoch 22
+📈 Saved loss plot to runs/delta_20250328-183650/best_model_loss.png
+🔍 Evaluating...
+🎯 Threshold: 0.6013
+AUC: 0.5998
+Accuracy: 0.5000
+Precision: 0.3433
+Recall: 0.8023
+F1 Score: 0.4861
+Confusion Matrix:
+ [[ 80 132]
+ [ 17  69]]
+📊 Metrics saved to runs/delta_20250328-183650/metrics.json
+✅ Run complete. Results saved to: runs/delta_20250328-183650
