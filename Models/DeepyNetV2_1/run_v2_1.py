@@ -10,7 +10,7 @@ import pandas as pd
 from torch.utils.data import DataLoader, random_split, WeightedRandomSampler
 from torch import nn, optim
 
-from dataset_v2 import MRIDatasetV2, load_clinical_metadata
+from dataset import MRIDataset, load_clinical_metadata
 from deepynet_v2_1 import DeepyNetV2_1
 from train import train_model
 from evaluate import evaluate_model
@@ -70,7 +70,7 @@ best_model_path = os.path.join(run_dir, "best_model.pt")
 # ---------------------
 labels_df, labels_dict, clinical_dict, clinical_cols = load_clinical_metadata(LABELS_PATH)
 
-dataset = MRIDatasetV2(
+dataset = MRIDataset(
     timepoint_dirs=TIMEPOINT_DIRS,
     labels_df=labels_df,
     input_mode=args.input_mode,

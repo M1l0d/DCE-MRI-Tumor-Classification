@@ -8,7 +8,7 @@ import torchio as tio
 from torch.utils.data import Dataset
 from sklearn.preprocessing import StandardScaler
 
-class MRIDatasetV2(Dataset):
+class MRIDataset(Dataset):
     def __init__(self, timepoint_dirs, labels_df, augment=False, input_mode="delta", clinical_cols=None):
         self.data_dirs = timepoint_dirs
         self.labels_df = labels_df
