@@ -2,6 +2,13 @@
 venv/
 my_venv/
 
+# # Ignore the runs folder
+# Runs/
+# # Ignore the error folder
+# Errors/
+# # Ignore the scripts folder
+# Scripts/
+
 # Ignore model files
 *.pt
 */best_model.pt
@@ -13,6 +20,3 @@ my_venv/
 __pycache__/
 *.py[cod]
 *.class
-
-# Ignore logs and results
-slurm_logs*/
