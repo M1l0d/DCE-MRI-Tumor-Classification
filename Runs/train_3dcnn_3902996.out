@@ -1,0 +1,45 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/3902996
+Using device: cuda
+Number of valid files: 1491
+Epoch 1, Train Loss: 0.9923, Val Loss: 0.9525
+Epoch 2, Train Loss: 0.9627, Val Loss: 0.9357
+Epoch 3, Train Loss: 0.9451, Val Loss: 0.9507
+Epoch 4, Train Loss: 0.9287, Val Loss: 0.9368
+Epoch 5, Train Loss: 0.9161, Val Loss: 0.9402
+Epoch 6, Train Loss: 0.8877, Val Loss: 0.9459
+Epoch 7, Train Loss: 0.8553, Val Loss: 0.9450
+Epoch 8, Train Loss: 0.8319, Val Loss: 0.9597
+Epoch 9, Train Loss: 0.7899, Val Loss: 0.9841
+Epoch 10, Train Loss: 0.7380, Val Loss: 0.9861
+Epoch 11, Train Loss: 0.7009, Val Loss: 1.0555
+Epoch 12, Train Loss: 0.6692, Val Loss: 1.0218
+Epoch 13, Train Loss: 0.6106, Val Loss: 1.0490
+Epoch 14, Train Loss: 0.5818, Val Loss: 1.0491
+Epoch 15, Train Loss: 0.5331, Val Loss: 1.1118
+Epoch 16, Train Loss: 0.5058, Val Loss: 1.1564
+Epoch 17, Train Loss: 0.4612, Val Loss: 1.1694
+Epoch 18, Train Loss: 0.4471, Val Loss: 1.1427
+Epoch 19, Train Loss: 0.3855, Val Loss: 1.2761
+Epoch 20, Train Loss: 0.3612, Val Loss: 1.2814
+Epoch 21, Train Loss: 0.3254, Val Loss: 1.2285
+Epoch 22, Train Loss: 0.3220, Val Loss: 1.2883
+Epoch 23, Train Loss: 0.2777, Val Loss: 1.3411
+Epoch 24, Train Loss: 0.2478, Val Loss: 1.3157
+Epoch 25, Train Loss: 0.2337, Val Loss: 1.4432
+Epoch 26, Train Loss: 0.2225, Val Loss: 1.4894
+Epoch 27, Train Loss: 0.1989, Val Loss: 1.5801
+Epoch 28, Train Loss: 0.1648, Val Loss: 1.5059
+Epoch 29, Train Loss: 0.1568, Val Loss: 1.7043
+Epoch 30, Train Loss: 0.1421, Val Loss: 1.6037
+Loss curve saved as loss_curve.png
+
+--- Evaluation Metrics ---
+Accuracy: 0.587248322147651
+Precision: 0.26732673267326734
+Recall: 0.35526315789473684
+F1 Score: 0.30508474576271183
+ROC AUC Score: 0.5365101944049313
+Confusion Matrix: 
+ [[148  74]
+ [ 49  27]]
+✅ Training complete!

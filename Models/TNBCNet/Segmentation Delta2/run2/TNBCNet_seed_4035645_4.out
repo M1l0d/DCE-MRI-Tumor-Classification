@@ -1,0 +1,625 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/4035645
+🔥 Device: cuda | Seed: 2025
+🚀 Generating cross-validation loaders...
+📦 Initializing model with 4 input channels...
+🔬 Visualizing a sample from the training set:
+✅ Initialized TNBCDataset with 1184 patients | mode=delta2 | segmentation=True
+✅ Initialized TNBCDataset with 296 patients | mode=delta2 | segmentation=True
+Label: 0.0
+Label: 1.0
+✅ Initialized TNBCDataset with 1184 patients | mode=delta2 | segmentation=True
+✅ Initialized TNBCDataset with 296 patients | mode=delta2 | segmentation=True
+Using TNBCNet model
+🔄 Fold 1
+✅ Applied custom weight initialization
+Class distribution: 396 positives, 788 negatives
+Using pos_weight: 1.99
+🔍 Finding optimal learning rate...
+🚀 Training...
+AUC: 0.4778, Inverse AUC: 0.5222 ← USING THIS
+Epoch 1, Train Loss: 0.9232, Val Loss: 0.9344, AUC: 0.5222
+AUC: 0.4938, Inverse AUC: 0.5062 ← USING THIS
+Epoch 2, Train Loss: 0.9227, Val Loss: 0.9342, AUC: 0.5062
+AUC: 0.5020 ← USING THIS, Inverse AUC: 0.4979
+Epoch 3, Train Loss: 0.9226, Val Loss: 0.9338, AUC: 0.5020
+AUC: 0.5183 ← USING THIS, Inverse AUC: 0.4817
+Epoch 4, Train Loss: 0.9222, Val Loss: 0.9334, AUC: 0.5183
+AUC: 0.5325 ← USING THIS, Inverse AUC: 0.4675
+Epoch 5, Train Loss: 0.9248, Val Loss: 0.9336, AUC: 0.5325
+AUC: 0.5424 ← USING THIS, Inverse AUC: 0.4575
+Epoch 6, Train Loss: 0.9243, Val Loss: 0.9334, AUC: 0.5424
+AUC: 0.5560 ← USING THIS, Inverse AUC: 0.4440
+Epoch 7, Train Loss: 0.9230, Val Loss: 0.9329, AUC: 0.5560
+AUC: 0.5619 ← USING THIS, Inverse AUC: 0.4381
+Epoch 8, Train Loss: 0.9209, Val Loss: 0.9327, AUC: 0.5619
+AUC: 0.5732 ← USING THIS, Inverse AUC: 0.4268
+Epoch 9, Train Loss: 0.9239, Val Loss: 0.9329, AUC: 0.5732
+AUC: 0.5777 ← USING THIS, Inverse AUC: 0.4223
+Epoch 10, Train Loss: 0.9228, Val Loss: 0.9330, AUC: 0.5777
+AUC: 0.5830 ← USING THIS, Inverse AUC: 0.4170
+Epoch 11, Train Loss: 0.9228, Val Loss: 0.9327, AUC: 0.5830
+AUC: 0.5929 ← USING THIS, Inverse AUC: 0.4071
+Epoch 12, Train Loss: 0.9226, Val Loss: 0.9327, AUC: 0.5929
+AUC: 0.6078 ← USING THIS, Inverse AUC: 0.3922
+Epoch 13, Train Loss: 0.9199, Val Loss: 0.9324, AUC: 0.6078
+AUC: 0.6136 ← USING THIS, Inverse AUC: 0.3864
+Epoch 14, Train Loss: 0.9237, Val Loss: 0.9322, AUC: 0.6136
+AUC: 0.6166 ← USING THIS, Inverse AUC: 0.3834
+Epoch 15, Train Loss: 0.9209, Val Loss: 0.9320, AUC: 0.6166
+AUC: 0.6190 ← USING THIS, Inverse AUC: 0.3810
+Epoch 16, Train Loss: 0.9217, Val Loss: 0.9322, AUC: 0.6190
+AUC: 0.6224 ← USING THIS, Inverse AUC: 0.3776
+Epoch 17, Train Loss: 0.9222, Val Loss: 0.9314, AUC: 0.6224
+AUC: 0.6196 ← USING THIS, Inverse AUC: 0.3804
+Epoch 18, Train Loss: 0.9223, Val Loss: 0.9323, AUC: 0.6196
+AUC: 0.6202 ← USING THIS, Inverse AUC: 0.3798
+Epoch 19, Train Loss: 0.9186, Val Loss: 0.9323, AUC: 0.6202
+AUC: 0.6192 ← USING THIS, Inverse AUC: 0.3808
+Epoch 20, Train Loss: 0.9215, Val Loss: 0.9319, AUC: 0.6192
+AUC: 0.6161 ← USING THIS, Inverse AUC: 0.3839
+Epoch 21, Train Loss: 0.9212, Val Loss: 0.9318, AUC: 0.6161
+AUC: 0.6196 ← USING THIS, Inverse AUC: 0.3804
+Epoch 22, Train Loss: 0.9204, Val Loss: 0.9314, AUC: 0.6196
+AUC: 0.6231 ← USING THIS, Inverse AUC: 0.3769
+Epoch 23, Train Loss: 0.9212, Val Loss: 0.9306, AUC: 0.6231
+AUC: 0.6271 ← USING THIS, Inverse AUC: 0.3729
+Epoch 24, Train Loss: 0.9214, Val Loss: 0.9305, AUC: 0.6271
+AUC: 0.6226 ← USING THIS, Inverse AUC: 0.3774
+Epoch 25, Train Loss: 0.9197, Val Loss: 0.9316, AUC: 0.6226
+AUC: 0.6211 ← USING THIS, Inverse AUC: 0.3789
+Epoch 26, Train Loss: 0.9206, Val Loss: 0.9307, AUC: 0.6211
+AUC: 0.6256 ← USING THIS, Inverse AUC: 0.3744
+Epoch 27, Train Loss: 0.9215, Val Loss: 0.9301, AUC: 0.6256
+AUC: 0.6292 ← USING THIS, Inverse AUC: 0.3708
+Epoch 28, Train Loss: 0.9212, Val Loss: 0.9302, AUC: 0.6292
+AUC: 0.6264 ← USING THIS, Inverse AUC: 0.3736
+Epoch 29, Train Loss: 0.9198, Val Loss: 0.9299, AUC: 0.6264
+AUC: 0.6259 ← USING THIS, Inverse AUC: 0.3741
+Epoch 30, Train Loss: 0.9196, Val Loss: 0.9302, AUC: 0.6259
+AUC: 0.6285 ← USING THIS, Inverse AUC: 0.3715
+Epoch 31, Train Loss: 0.9196, Val Loss: 0.9293, AUC: 0.6285
+AUC: 0.6291 ← USING THIS, Inverse AUC: 0.3709
+Epoch 32, Train Loss: 0.9175, Val Loss: 0.9293, AUC: 0.6291
+AUC: 0.6264 ← USING THIS, Inverse AUC: 0.3736
+Epoch 33, Train Loss: 0.9180, Val Loss: 0.9294, AUC: 0.6264
+AUC: 0.6251 ← USING THIS, Inverse AUC: 0.3749
+Epoch 34, Train Loss: 0.9179, Val Loss: 0.9288, AUC: 0.6251
+AUC: 0.6233 ← USING THIS, Inverse AUC: 0.3767
+Epoch 35, Train Loss: 0.9186, Val Loss: 0.9289, AUC: 0.6233
+AUC: 0.6247 ← USING THIS, Inverse AUC: 0.3753
+Epoch 36, Train Loss: 0.9193, Val Loss: 0.9279, AUC: 0.6247
+AUC: 0.6237 ← USING THIS, Inverse AUC: 0.3763
+Epoch 37, Train Loss: 0.9172, Val Loss: 0.9275, AUC: 0.6237
+AUC: 0.6253 ← USING THIS, Inverse AUC: 0.3747
+Epoch 38, Train Loss: 0.9181, Val Loss: 0.9275, AUC: 0.6253
+AUC: 0.6277 ← USING THIS, Inverse AUC: 0.3723
+Epoch 39, Train Loss: 0.9173, Val Loss: 0.9268, AUC: 0.6277
+AUC: 0.6287 ← USING THIS, Inverse AUC: 0.3713
+Epoch 40, Train Loss: 0.9157, Val Loss: 0.9278, AUC: 0.6287
+AUC: 0.6320 ← USING THIS, Inverse AUC: 0.3680
+Epoch 41, Train Loss: 0.9167, Val Loss: 0.9269, AUC: 0.6320
+AUC: 0.6312 ← USING THIS, Inverse AUC: 0.3688
+Epoch 42, Train Loss: 0.9140, Val Loss: 0.9267, AUC: 0.6312
+AUC: 0.6304 ← USING THIS, Inverse AUC: 0.3696
+Epoch 43, Train Loss: 0.9159, Val Loss: 0.9266, AUC: 0.6304
+AUC: 0.6311 ← USING THIS, Inverse AUC: 0.3689
+Epoch 44, Train Loss: 0.9125, Val Loss: 0.9257, AUC: 0.6311
+AUC: 0.6300 ← USING THIS, Inverse AUC: 0.3700
+Epoch 45, Train Loss: 0.9166, Val Loss: 0.9248, AUC: 0.6300
+AUC: 0.6307 ← USING THIS, Inverse AUC: 0.3693
+Epoch 46, Train Loss: 0.9095, Val Loss: 0.9245, AUC: 0.6307
+AUC: 0.6288 ← USING THIS, Inverse AUC: 0.3712
+Epoch 47, Train Loss: 0.9132, Val Loss: 0.9261, AUC: 0.6288
+AUC: 0.6308 ← USING THIS, Inverse AUC: 0.3692
+Epoch 48, Train Loss: 0.9135, Val Loss: 0.9240, AUC: 0.6308
+AUC: 0.6314 ← USING THIS, Inverse AUC: 0.3686
+Epoch 49, Train Loss: 0.9108, Val Loss: 0.9238, AUC: 0.6314
+AUC: 0.6327 ← USING THIS, Inverse AUC: 0.3673
+Epoch 50, Train Loss: 0.9102, Val Loss: 0.9227, AUC: 0.6327
+AUC: 0.6337 ← USING THIS, Inverse AUC: 0.3663
+Epoch 51, Train Loss: 0.9096, Val Loss: 0.9219, AUC: 0.6337
+AUC: 0.6349 ← USING THIS, Inverse AUC: 0.3651
+Epoch 52, Train Loss: 0.9090, Val Loss: 0.9220, AUC: 0.6349
+AUC: 0.6350 ← USING THIS, Inverse AUC: 0.3650
+Epoch 53, Train Loss: 0.9090, Val Loss: 0.9205, AUC: 0.6350
+AUC: 0.6322 ← USING THIS, Inverse AUC: 0.3678
+Epoch 54, Train Loss: 0.9091, Val Loss: 0.9206, AUC: 0.6322
+AUC: 0.6333 ← USING THIS, Inverse AUC: 0.3667
+Epoch 55, Train Loss: 0.9074, Val Loss: 0.9194, AUC: 0.6333
+AUC: 0.6326 ← USING THIS, Inverse AUC: 0.3674
+Epoch 56, Train Loss: 0.9087, Val Loss: 0.9193, AUC: 0.6326
+AUC: 0.6348 ← USING THIS, Inverse AUC: 0.3652
+Epoch 57, Train Loss: 0.9059, Val Loss: 0.9186, AUC: 0.6348
+AUC: 0.6341 ← USING THIS, Inverse AUC: 0.3659
+Epoch 58, Train Loss: 0.9081, Val Loss: 0.9190, AUC: 0.6341
+AUC: 0.6337 ← USING THIS, Inverse AUC: 0.3663
+Epoch 59, Train Loss: 0.9067, Val Loss: 0.9183, AUC: 0.6337
+AUC: 0.6332 ← USING THIS, Inverse AUC: 0.3668
+Epoch 60, Train Loss: 0.9035, Val Loss: 0.9175, AUC: 0.6332
+AUC: 0.6346 ← USING THIS, Inverse AUC: 0.3654
+Epoch 61, Train Loss: 0.9054, Val Loss: 0.9178, AUC: 0.6346
+AUC: 0.6327 ← USING THIS, Inverse AUC: 0.3673
+Epoch 62, Train Loss: 0.9025, Val Loss: 0.9164, AUC: 0.6327
+AUC: 0.6323 ← USING THIS, Inverse AUC: 0.3677
+Epoch 63, Train Loss: 0.9036, Val Loss: 0.9175, AUC: 0.6323
+AUC: 0.6315 ← USING THIS, Inverse AUC: 0.3685
+Epoch 64, Train Loss: 0.9006, Val Loss: 0.9164, AUC: 0.6315
+AUC: 0.6329 ← USING THIS, Inverse AUC: 0.3671
+Epoch 65, Train Loss: 0.8972, Val Loss: 0.9163, AUC: 0.6329
+AUC: 0.6329 ← USING THIS, Inverse AUC: 0.3671
+Epoch 66, Train Loss: 0.8978, Val Loss: 0.9158, AUC: 0.6329
+AUC: 0.6309 ← USING THIS, Inverse AUC: 0.3691
+Epoch 67, Train Loss: 0.8974, Val Loss: 0.9155, AUC: 0.6309
+AUC: 0.6318 ← USING THIS, Inverse AUC: 0.3682
+Epoch 68, Train Loss: 0.8974, Val Loss: 0.9147, AUC: 0.6318
+AUC: 0.6327 ← USING THIS, Inverse AUC: 0.3673
+Epoch 69, Train Loss: 0.8962, Val Loss: 0.9146, AUC: 0.6327
+AUC: 0.6310 ← USING THIS, Inverse AUC: 0.3690
+Epoch 70, Train Loss: 0.8919, Val Loss: 0.9146, AUC: 0.6310
+AUC: 0.6302 ← USING THIS, Inverse AUC: 0.3698
+Epoch 71, Train Loss: 0.8981, Val Loss: 0.9147, AUC: 0.6302
+AUC: 0.6274 ← USING THIS, Inverse AUC: 0.3726
+Epoch 72, Train Loss: 0.8914, Val Loss: 0.9147, AUC: 0.6274
+AUC: 0.6313 ← USING THIS, Inverse AUC: 0.3687
+Epoch 73, Train Loss: 0.8954, Val Loss: 0.9129, AUC: 0.6313
+AUC: 0.6341 ← USING THIS, Inverse AUC: 0.3659
+Epoch 74, Train Loss: 0.8959, Val Loss: 0.9120, AUC: 0.6341
+AUC: 0.6335 ← USING THIS, Inverse AUC: 0.3665
+Epoch 75, Train Loss: 0.8950, Val Loss: 0.9113, AUC: 0.6335
+AUC: 0.6320 ← USING THIS, Inverse AUC: 0.3680
+Epoch 76, Train Loss: 0.8946, Val Loss: 0.9117, AUC: 0.6320
+AUC: 0.6326 ← USING THIS, Inverse AUC: 0.3674
+Epoch 77, Train Loss: 0.8916, Val Loss: 0.9113, AUC: 0.6326
+AUC: 0.6351 ← USING THIS, Inverse AUC: 0.3649
+Epoch 78, Train Loss: 0.8958, Val Loss: 0.9105, AUC: 0.6351
+AUC: 0.6381 ← USING THIS, Inverse AUC: 0.3619
+Epoch 79, Train Loss: 0.8888, Val Loss: 0.9098, AUC: 0.6381
+AUC: 0.6362 ← USING THIS, Inverse AUC: 0.3638
+Epoch 80, Train Loss: 0.8901, Val Loss: 0.9128, AUC: 0.6362
+AUC: 0.6370 ← USING THIS, Inverse AUC: 0.3630
+Epoch 81, Train Loss: 0.8813, Val Loss: 0.9100, AUC: 0.6370
+AUC: 0.6339 ← USING THIS, Inverse AUC: 0.3661
+Epoch 82, Train Loss: 0.8837, Val Loss: 0.9104, AUC: 0.6339
+AUC: 0.6336 ← USING THIS, Inverse AUC: 0.3664
+Epoch 83, Train Loss: 0.8843, Val Loss: 0.9110, AUC: 0.6336
+AUC: 0.6351 ← USING THIS, Inverse AUC: 0.3649
+Epoch 84, Train Loss: 0.8862, Val Loss: 0.9095, AUC: 0.6351
+AUC: 0.6348 ← USING THIS, Inverse AUC: 0.3652
+Epoch 85, Train Loss: 0.8916, Val Loss: 0.9097, AUC: 0.6348
+AUC: 0.6368 ← USING THIS, Inverse AUC: 0.3632
+Epoch 86, Train Loss: 0.8806, Val Loss: 0.9112, AUC: 0.6368
+AUC: 0.6375 ← USING THIS, Inverse AUC: 0.3625
+Epoch 87, Train Loss: 0.8801, Val Loss: 0.9076, AUC: 0.6375
+AUC: 0.6407 ← USING THIS, Inverse AUC: 0.3593
+Epoch 88, Train Loss: 0.8824, Val Loss: 0.9074, AUC: 0.6407
+AUC: 0.6431 ← USING THIS, Inverse AUC: 0.3569
+Epoch 89, Train Loss: 0.8816, Val Loss: 0.9059, AUC: 0.6431
+AUC: 0.6446 ← USING THIS, Inverse AUC: 0.3554
+Epoch 90, Train Loss: 0.8806, Val Loss: 0.9101, AUC: 0.6446
+AUC: 0.6433 ← USING THIS, Inverse AUC: 0.3567
+Epoch 91, Train Loss: 0.8787, Val Loss: 0.9046, AUC: 0.6433
+AUC: 0.6422 ← USING THIS, Inverse AUC: 0.3578
+Epoch 92, Train Loss: 0.8729, Val Loss: 0.9048, AUC: 0.6422
+AUC: 0.6430 ← USING THIS, Inverse AUC: 0.3570
+Epoch 93, Train Loss: 0.8830, Val Loss: 0.9044, AUC: 0.6430
+AUC: 0.6427 ← USING THIS, Inverse AUC: 0.3573
+Epoch 94, Train Loss: 0.8842, Val Loss: 0.9045, AUC: 0.6427
+AUC: 0.6426 ← USING THIS, Inverse AUC: 0.3574
+Epoch 95, Train Loss: 0.8788, Val Loss: 0.9039, AUC: 0.6426
+AUC: 0.6443 ← USING THIS, Inverse AUC: 0.3557
+Epoch 96, Train Loss: 0.8787, Val Loss: 0.9050, AUC: 0.6443
+AUC: 0.6443 ← USING THIS, Inverse AUC: 0.3557
+Epoch 97, Train Loss: 0.8715, Val Loss: 0.9034, AUC: 0.6443
+AUC: 0.6425 ← USING THIS, Inverse AUC: 0.3575
+Epoch 98, Train Loss: 0.8719, Val Loss: 0.9041, AUC: 0.6425
+AUC: 0.6414 ← USING THIS, Inverse AUC: 0.3586
+Epoch 99, Train Loss: 0.8816, Val Loss: 0.9042, AUC: 0.6414
+AUC: 0.6417 ← USING THIS, Inverse AUC: 0.3583
+Epoch 100, Train Loss: 0.8738, Val Loss: 0.9057, AUC: 0.6417
+📈 Saved loss plot to TNBC_results/fold_1_seed_2025_20250414-192206/loss_plot.png
+🔍 Evaluating...
+🔍 Predicted probabilities: mean=0.4773, min=0.3397, max=0.6298
+Standard AUC: 0.6443
+Inverse AUC: 0.3557
+Using standard predictions (AUC: 0.6443)
+
+📊 Threshold sweep:
+ Thresh |    Acc |   Prec |    Rec |   Spec |     F1
+--------------------------------------------------
+   0.30 |  0.348 |  0.348 |  1.000 |  0.348 |  0.516
+   0.31 |  0.348 |  0.348 |  1.000 |  0.348 |  0.516
+   0.32 |  0.348 |  0.348 |  1.000 |  0.348 |  0.516
+   0.33 |  0.348 |  0.348 |  1.000 |  0.348 |  0.516
+   0.34 |  0.351 |  0.349 |  1.000 |  0.351 |  0.518
+   0.35 |  0.355 |  0.349 |  0.990 |  0.355 |  0.516
+   0.36 |  0.348 |  0.344 |  0.961 |  0.348 |  0.506
+   0.37 |  0.372 |  0.352 |  0.961 |  0.372 |  0.516
+   0.38 |  0.389 |  0.356 |  0.932 |  0.389 |  0.515
+   0.39 |  0.409 |  0.357 |  0.874 |  0.409 |  0.507
+   0.40 |  0.432 |  0.366 |  0.864 |  0.432 |  0.514
+   0.41 |  0.459 |  0.374 |  0.825 |  0.459 |  0.515
+   0.42 |  0.486 |  0.385 |  0.796 |  0.486 |  0.519
+   0.43 |  0.520 |  0.403 |  0.786 |  0.520 |  0.533
+   0.44 |  0.524 |  0.403 |  0.767 |  0.524 |  0.528
+   0.45 |  0.544 |  0.413 |  0.738 |  0.544 |  0.530
+   0.46 |  0.581 |  0.436 |  0.699 |  0.581 |  0.537
+   0.47 |  0.598 |  0.448 |  0.670 |  0.598 |  0.537
+   0.48 |  0.618 |  0.465 |  0.641 |  0.618 |  0.539
+   0.49 |  0.622 |  0.465 |  0.583 |  0.622 |  0.517
+   0.50 |  0.632 |  0.473 |  0.515 |  0.632 |  0.493
+   0.51 |  0.649 |  0.495 |  0.476 |  0.649 |  0.485
+   0.52 |  0.659 |  0.511 |  0.447 |  0.659 |  0.477
+   0.53 |  0.679 |  0.550 |  0.427 |  0.679 |  0.481
+   0.54 |  0.662 |  0.523 |  0.330 |  0.662 |  0.405
+   0.55 |  0.659 |  0.517 |  0.301 |  0.659 |  0.380
+   0.56 |  0.676 |  0.571 |  0.272 |  0.676 |  0.368
+   0.57 |  0.679 |  0.600 |  0.233 |  0.679 |  0.336
+   0.58 |  0.679 |  0.625 |  0.194 |  0.679 |  0.296
+   0.59 |  0.676 |  0.667 |  0.136 |  0.676 |  0.226
+   0.60 |  0.676 |  0.733 |  0.107 |  0.676 |  0.186
+   0.61 |  0.662 |  0.636 |  0.068 |  0.662 |  0.123
+   0.62 |  0.662 |  0.800 |  0.039 |  0.662 |  0.074
+   0.63 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.64 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.65 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.66 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.67 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.68 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+   0.69 |  0.652 |  0.000 |  0.000 |  0.652 |  0.000
+
+🎯 Best Threshold: 0.48 (F1=0.539)
+Accuracy:  0.6182
+Precision: 0.4648
+Recall:    0.6408
+F1 Score:  0.5388
+Confusion Matrix:
+[[117  76]
+ [ 37  66]]
+🔍 Visualizing features...
+✅ Initialized TNBCDataset with 1184 patients | mode=delta2 | segmentation=True
+✅ Initialized TNBCDataset with 296 patients | mode=delta2 | segmentation=True
+Using TNBCNet model
+🔄 Fold 2
+✅ Applied custom weight initialization
+Class distribution: 402 positives, 782 negatives
+Using pos_weight: 1.95
+🔍 Finding optimal learning rate...
+🚀 Training...
+AUC: 0.5140 ← USING THIS, Inverse AUC: 0.4860
+Epoch 1, Train Loss: 0.9171, Val Loss: 0.8963, AUC: 0.5140
+AUC: 0.5045 ← USING THIS, Inverse AUC: 0.4955
+Epoch 2, Train Loss: 0.9174, Val Loss: 0.8964, AUC: 0.5045
+AUC: 0.4978, Inverse AUC: 0.5022 ← USING THIS
+Epoch 3, Train Loss: 0.9185, Val Loss: 0.8971, AUC: 0.5022
+AUC: 0.5079 ← USING THIS, Inverse AUC: 0.4921
+Epoch 4, Train Loss: 0.9156, Val Loss: 0.8978, AUC: 0.5079
+AUC: 0.5041 ← USING THIS, Inverse AUC: 0.4959
+Epoch 5, Train Loss: 0.9166, Val Loss: 0.8975, AUC: 0.5041
+AUC: 0.5040 ← USING THIS, Inverse AUC: 0.4960
+Epoch 6, Train Loss: 0.9138, Val Loss: 0.8973, AUC: 0.5040
+AUC: 0.5122 ← USING THIS, Inverse AUC: 0.4878
+Epoch 7, Train Loss: 0.9138, Val Loss: 0.8964, AUC: 0.5122
+AUC: 0.5026 ← USING THIS, Inverse AUC: 0.4974
+Epoch 8, Train Loss: 0.9176, Val Loss: 0.8970, AUC: 0.5026
+AUC: 0.4971, Inverse AUC: 0.5029 ← USING THIS
+Epoch 9, Train Loss: 0.9137, Val Loss: 0.8965, AUC: 0.5029
+AUC: 0.5053 ← USING THIS, Inverse AUC: 0.4947
+Epoch 10, Train Loss: 0.9165, Val Loss: 0.8965, AUC: 0.5053
+AUC: 0.5147 ← USING THIS, Inverse AUC: 0.4853
+Epoch 11, Train Loss: 0.9164, Val Loss: 0.8966, AUC: 0.5147
+⏹️ Early stopping at epoch 11
+📈 Saved loss plot to TNBC_results/fold_2_seed_2025_20250414-192206/loss_plot.png
+🔍 Evaluating...
+🔍 Predicted probabilities: mean=0.4887, min=0.4810, max=0.4957
+Standard AUC: 0.5140
+Inverse AUC: 0.4860
+Using standard predictions (AUC: 0.5140)
+
+📊 Threshold sweep:
+ Thresh |    Acc |   Prec |    Rec |   Spec |     F1
+--------------------------------------------------
+   0.30 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.31 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.32 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.33 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.34 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.35 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.36 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.37 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.38 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.39 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.40 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.41 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.42 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.43 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.44 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.45 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.46 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.47 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.48 |  0.328 |  0.328 |  1.000 |  0.328 |  0.494
+   0.49 |  0.568 |  0.326 |  0.299 |  0.568 |  0.312
+   0.50 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.51 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.52 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.53 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.54 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.55 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.56 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.57 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.58 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.59 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.60 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.61 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.62 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.63 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.64 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.65 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.66 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.67 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.68 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+   0.69 |  0.672 |  0.000 |  0.000 |  0.672 |  0.000
+
+🎯 Best Threshold: 0.30 (F1=0.494)
+Accuracy:  0.3277
+Precision: 0.3277
+Recall:    1.0000
+F1 Score:  0.4936
+Confusion Matrix:
+[[  0 199]
+ [  0  97]]
+🔍 Visualizing features...
+✅ Initialized TNBCDataset with 1184 patients | mode=delta2 | segmentation=True
+✅ Initialized TNBCDataset with 296 patients | mode=delta2 | segmentation=True
+Using TNBCNet model
+🔄 Fold 3
+✅ Applied custom weight initialization
+Class distribution: 390 positives, 794 negatives
+Using pos_weight: 2.04
+🔍 Finding optimal learning rate...
+🚀 Training...
+AUC: 0.4815, Inverse AUC: 0.5185 ← USING THIS
+Epoch 1, Train Loss: 0.9293, Val Loss: 0.9505, AUC: 0.5185
+AUC: 0.4928, Inverse AUC: 0.5072 ← USING THIS
+Epoch 2, Train Loss: 0.9297, Val Loss: 0.9509, AUC: 0.5072
+AUC: 0.5048 ← USING THIS, Inverse AUC: 0.4952
+Epoch 3, Train Loss: 0.9300, Val Loss: 0.9511, AUC: 0.5048
+AUC: 0.5094 ← USING THIS, Inverse AUC: 0.4906
+Epoch 4, Train Loss: 0.9304, Val Loss: 0.9512, AUC: 0.5094
+AUC: 0.5200 ← USING THIS, Inverse AUC: 0.4800
+Epoch 5, Train Loss: 0.9287, Val Loss: 0.9508, AUC: 0.5200
+AUC: 0.5195 ← USING THIS, Inverse AUC: 0.4805
+Epoch 6, Train Loss: 0.9300, Val Loss: 0.9507, AUC: 0.5195
+AUC: 0.5300 ← USING THIS, Inverse AUC: 0.4700
+Epoch 7, Train Loss: 0.9278, Val Loss: 0.9502, AUC: 0.5300
+AUC: 0.5189 ← USING THIS, Inverse AUC: 0.4811
+Epoch 8, Train Loss: 0.9288, Val Loss: 0.9511, AUC: 0.5189
+AUC: 0.5261 ← USING THIS, Inverse AUC: 0.4739
+Epoch 9, Train Loss: 0.9289, Val Loss: 0.9510, AUC: 0.5261
+AUC: 0.5317 ← USING THIS, Inverse AUC: 0.4683
+Epoch 10, Train Loss: 0.9291, Val Loss: 0.9518, AUC: 0.5317
+AUC: 0.5475 ← USING THIS, Inverse AUC: 0.4525
+Epoch 11, Train Loss: 0.9294, Val Loss: 0.9506, AUC: 0.5475
+⏹️ Early stopping at epoch 11
+📈 Saved loss plot to TNBC_results/fold_3_seed_2025_20250414-192206/loss_plot.png
+🔍 Evaluating...
+🔍 Predicted probabilities: mean=0.5032, min=0.4967, max=0.5095
+Standard AUC: 0.5300
+Inverse AUC: 0.4700
+Using standard predictions (AUC: 0.5300)
+
+📊 Threshold sweep:
+ Thresh |    Acc |   Prec |    Rec |   Spec |     F1
+--------------------------------------------------
+   0.30 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.31 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.32 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.33 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.34 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.35 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.36 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.37 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.38 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.39 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.40 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.41 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.42 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.43 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.44 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.45 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.46 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.47 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.48 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.49 |  0.368 |  0.368 |  1.000 |  0.368 |  0.538
+   0.50 |  0.395 |  0.375 |  0.963 |  0.395 |  0.540
+   0.51 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.52 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.53 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.54 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.55 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.56 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.57 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.58 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.59 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.60 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.61 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.62 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.63 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.64 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.65 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.66 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.67 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.68 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+   0.69 |  0.632 |  0.000 |  0.000 |  0.632 |  0.000
+
+🎯 Best Threshold: 0.50 (F1=0.540)
+Accuracy:  0.3953
+Precision: 0.3750
+Recall:    0.9633
+F1 Score:  0.5398
+Confusion Matrix:
+[[ 12 175]
+ [  4 105]]
+🔍 Visualizing features...
+✅ Initialized TNBCDataset with 1184 patients | mode=delta2 | segmentation=True
+✅ Initialized TNBCDataset with 296 patients | mode=delta2 | segmentation=True
+Using TNBCNet model
+🔄 Fold 4
+✅ Applied custom weight initialization
+Class distribution: 409 positives, 775 negatives
+Using pos_weight: 1.89
+🔍 Finding optimal learning rate...
+🚀 Training...
+AUC: 0.4902, Inverse AUC: 0.5098 ← USING THIS
+Epoch 1, Train Loss: 0.9090, Val Loss: 0.8755, AUC: 0.5098
+AUC: 0.5134 ← USING THIS, Inverse AUC: 0.4866
+Epoch 2, Train Loss: 0.9086, Val Loss: 0.8767, AUC: 0.5134
+AUC: 0.5221 ← USING THIS, Inverse AUC: 0.4779
+Epoch 3, Train Loss: 0.9088, Val Loss: 0.8764, AUC: 0.5221
+AUC: 0.5369 ← USING THIS, Inverse AUC: 0.4631
+Epoch 4, Train Loss: 0.9086, Val Loss: 0.8763, AUC: 0.5369
+AUC: 0.5321 ← USING THIS, Inverse AUC: 0.4679
+Epoch 5, Train Loss: 0.9072, Val Loss: 0.8767, AUC: 0.5321
+AUC: 0.5331 ← USING THIS, Inverse AUC: 0.4669
+Epoch 6, Train Loss: 0.9071, Val Loss: 0.8767, AUC: 0.5331
+AUC: 0.5348 ← USING THIS, Inverse AUC: 0.4652
+Epoch 7, Train Loss: 0.9070, Val Loss: 0.8771, AUC: 0.5348
+AUC: 0.5297 ← USING THIS, Inverse AUC: 0.4703
+Epoch 8, Train Loss: 0.9069, Val Loss: 0.8767, AUC: 0.5297
+AUC: 0.5385 ← USING THIS, Inverse AUC: 0.4615
+Epoch 9, Train Loss: 0.9078, Val Loss: 0.8765, AUC: 0.5385
+AUC: 0.5448 ← USING THIS, Inverse AUC: 0.4552
+Epoch 10, Train Loss: 0.9053, Val Loss: 0.8765, AUC: 0.5448
+AUC: 0.5518 ← USING THIS, Inverse AUC: 0.4482
+Epoch 11, Train Loss: 0.9054, Val Loss: 0.8772, AUC: 0.5518
+⏹️ Early stopping at epoch 11
+📈 Saved loss plot to TNBC_results/fold_4_seed_2025_20250414-192206/loss_plot.png
+🔍 Evaluating...
+🔍 Predicted probabilities: mean=0.4828, min=0.4741, max=0.4910
+Standard AUC: 0.4902
+Inverse AUC: 0.5098
+Using inverse predictions (AUC: 0.5098)
+
+📊 Threshold sweep:
+ Thresh |    Acc |   Prec |    Rec |   Spec |     F1
+--------------------------------------------------
+   0.30 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.31 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.32 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.33 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.34 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.35 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.36 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.37 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.38 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.39 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.40 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.41 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.42 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.43 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.44 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.45 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.46 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.47 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.48 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.49 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.50 |  0.304 |  0.304 |  1.000 |  0.304 |  0.466
+   0.51 |  0.307 |  0.305 |  1.000 |  0.307 |  0.468
+   0.52 |  0.639 |  0.257 |  0.100 |  0.639 |  0.144
+   0.53 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.54 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.55 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.56 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.57 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.58 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.59 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.60 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.61 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.62 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.63 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.64 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.65 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.66 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.67 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.68 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+   0.69 |  0.696 |  0.000 |  0.000 |  0.696 |  0.000
+
+🎯 Best Threshold: 0.51 (F1=0.468)
+Accuracy:  0.3074
+Precision: 0.3051
+Recall:    1.0000
+F1 Score:  0.4675
+Confusion Matrix:
+[[  1 205]
+ [  0  90]]
+🔍 Visualizing features...
+🔍 Training with overfitting debug...
+Small dataset class distribution: 4 positives, 6 negatives
+Using small dataset pos_weight: 1.50
+AUC: 0.5569 ← USING THIS, Inverse AUC: 0.4431
+Epoch 1, Train Loss: 0.7914, Val Loss: 0.7916, AUC: 0.5569
+AUC: 0.5647 ← USING THIS, Inverse AUC: 0.4353
+Epoch 2, Train Loss: 0.8429, Val Loss: 0.7914, AUC: 0.5647
+AUC: 0.5702 ← USING THIS, Inverse AUC: 0.4298
+Epoch 3, Train Loss: 0.8616, Val Loss: 0.7908, AUC: 0.5702
+AUC: 0.5651 ← USING THIS, Inverse AUC: 0.4349
+Epoch 4, Train Loss: 0.8682, Val Loss: 0.7897, AUC: 0.5651
+AUC: 0.5626 ← USING THIS, Inverse AUC: 0.4374
+Epoch 5, Train Loss: 0.8073, Val Loss: 0.7891, AUC: 0.5626
+AUC: 0.5595 ← USING THIS, Inverse AUC: 0.4405
+Epoch 6, Train Loss: 0.8559, Val Loss: 0.7885, AUC: 0.5595
+AUC: 0.5578 ← USING THIS, Inverse AUC: 0.4422
+Epoch 7, Train Loss: 0.8538, Val Loss: 0.7879, AUC: 0.5578
+AUC: 0.5585 ← USING THIS, Inverse AUC: 0.4415
+Epoch 8, Train Loss: 0.8115, Val Loss: 0.7875, AUC: 0.5585
+AUC: 0.5566 ← USING THIS, Inverse AUC: 0.4434
+Epoch 9, Train Loss: 0.8005, Val Loss: 0.7870, AUC: 0.5566
+AUC: 0.5576 ← USING THIS, Inverse AUC: 0.4424
+Epoch 10, Train Loss: 0.8329, Val Loss: 0.7864, AUC: 0.5576
+AUC: 0.5574 ← USING THIS, Inverse AUC: 0.4426
+Epoch 11, Train Loss: 0.8262, Val Loss: 0.7858, AUC: 0.5574
+AUC: 0.5569 ← USING THIS, Inverse AUC: 0.4431
+Epoch 12, Train Loss: 0.7867, Val Loss: 0.7853, AUC: 0.5569
+AUC: 0.5557 ← USING THIS, Inverse AUC: 0.4443
+Epoch 13, Train Loss: 0.8327, Val Loss: 0.7847, AUC: 0.5557
+AUC: 0.5544 ← USING THIS, Inverse AUC: 0.4456
+Epoch 14, Train Loss: 0.8401, Val Loss: 0.7842, AUC: 0.5544
+AUC: 0.5526 ← USING THIS, Inverse AUC: 0.4474
+Epoch 15, Train Loss: 0.7634, Val Loss: 0.7837, AUC: 0.5526
+AUC: 0.5528 ← USING THIS, Inverse AUC: 0.4472
+Epoch 16, Train Loss: 0.7881, Val Loss: 0.7831, AUC: 0.5528
+AUC: 0.5523 ← USING THIS, Inverse AUC: 0.4477
+Epoch 17, Train Loss: 0.7965, Val Loss: 0.7828, AUC: 0.5523
+AUC: 0.5512 ← USING THIS, Inverse AUC: 0.4488
+Epoch 18, Train Loss: 0.8359, Val Loss: 0.7824, AUC: 0.5512
+AUC: 0.5510 ← USING THIS, Inverse AUC: 0.4490
+Epoch 19, Train Loss: 0.8424, Val Loss: 0.7818, AUC: 0.5510
+AUC: 0.5503 ← USING THIS, Inverse AUC: 0.4497
+Epoch 20, Train Loss: 0.8014, Val Loss: 0.7815, AUC: 0.5503
+AUC: 0.5502 ← USING THIS, Inverse AUC: 0.4498
+Epoch 21, Train Loss: 0.8110, Val Loss: 0.7813, AUC: 0.5502
+AUC: 0.5502 ← USING THIS, Inverse AUC: 0.4498
+Epoch 22, Train Loss: 0.8239, Val Loss: 0.7809, AUC: 0.5502
+AUC: 0.5509 ← USING THIS, Inverse AUC: 0.4491
+Epoch 23, Train Loss: 0.8546, Val Loss: 0.7806, AUC: 0.5509
+AUC: 0.5512 ← USING THIS, Inverse AUC: 0.4488
+Epoch 24, Train Loss: 0.8161, Val Loss: 0.7804, AUC: 0.5512
+AUC: 0.5509 ← USING THIS, Inverse AUC: 0.4491
+Epoch 25, Train Loss: 0.8958, Val Loss: 0.7802, AUC: 0.5509
+AUC: 0.5508 ← USING THIS, Inverse AUC: 0.4492
+Epoch 26, Train Loss: 0.8662, Val Loss: 0.7802, AUC: 0.5508
+AUC: 0.5509 ← USING THIS, Inverse AUC: 0.4491
+Epoch 27, Train Loss: 0.7797, Val Loss: 0.7800, AUC: 0.5509
+AUC: 0.5516 ← USING THIS, Inverse AUC: 0.4484
+Epoch 28, Train Loss: 0.8484, Val Loss: 0.7800, AUC: 0.5516
+AUC: 0.5518 ← USING THIS, Inverse AUC: 0.4482
+Epoch 29, Train Loss: 0.8689, Val Loss: 0.7798, AUC: 0.5518
+AUC: 0.5521 ← USING THIS, Inverse AUC: 0.4479
+Epoch 30, Train Loss: 0.7792, Val Loss: 0.7798, AUC: 0.5521
+AUC: 0.5522 ← USING THIS, Inverse AUC: 0.4478
+Epoch 31, Train Loss: 0.8193, Val Loss: 0.7798, AUC: 0.5522
+AUC: 0.5527 ← USING THIS, Inverse AUC: 0.4473
+Epoch 32, Train Loss: 0.8306, Val Loss: 0.7798, AUC: 0.5527
+AUC: 0.5533 ← USING THIS, Inverse AUC: 0.4467
+Epoch 33, Train Loss: 0.8442, Val Loss: 0.7797, AUC: 0.5533
+⏹️ Early stopping at epoch 33
+📈 Saved loss plot to TNBC_results/overfit_seed_2025_20250414-192206/loss_plot.png
