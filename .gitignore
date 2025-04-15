@@ -1,10 +1,13 @@
-# Ignore virtual environment
+# Ignore virtual environments
 venv/
 my_venv/
 
-# Ignore all model checkpoints
+# Ignore model files
 *.pt
-**/best_model.pt
+*/best_model.pt
+*/*/*/*/best_model.pt
+*/*/*/best_model.pt
+*/*/best_model.pt
 
 # Ignore cache files
 __pycache__/
@@ -13,8 +16,3 @@ __pycache__/
 
 # Ignore logs and results
 slurm_logs*/
-TNBC_results/
-DeepyNetV3_TNBC_results/
-
-# Other temp files
-.DS_Store

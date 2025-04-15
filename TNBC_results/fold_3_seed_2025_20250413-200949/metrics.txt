@@ -1,0 +1,11 @@
+Standard AUC: 0.4828
+Inverse AUC: 0.5172
+Final AUC: 0.5172
+Best Threshold: 0.49
+Accuracy: 0.4358
+Precision: 0.3885
+Recall: 0.9266
+F1 Score: 0.5474
+Confusion Matrix:
+[[ 28 159]
+ [  8 101]]
